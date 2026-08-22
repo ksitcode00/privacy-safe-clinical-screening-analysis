@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Restricted-data analytics architecture</title>
+  <desc id="desc">A privacy-first analytics architecture showing how protected inputs are transformed through generic analysis steps into public-safe code, methods, and workflow documentation without releasing restricted data or results.</desc>
+  <defs>
+    <linearGradient id="header" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1C3748"/><stop offset="1" stop-color="#2A6070"/></linearGradient>
+    <linearGradient id="private" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#DC755C"/><stop offset="1" stop-color="#F1A076"/></linearGradient>
+    <linearGradient id="public" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#188E7E"/><stop offset="1" stop-color="#55B9A2"/></linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="7" stdDeviation="8" flood-color="#183640" flood-opacity=".12"/></filter>
+  </defs>
+  <rect width="1200" height="720" fill="#F4F8F8"/>
+  <rect width="1200" height="158" fill="url(#header)"/>
+  <circle cx="1080" cy="-20" r="186" fill="#6CB6B2" opacity=".17"/><circle cx="1172" cy="104" r="100" fill="#D8F4EC" opacity=".12"/>
+  <text x="58" y="61" fill="#BFE5DC" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" letter-spacing="2.5">PRIVACY-FIRST ANALYTICS • PUBLIC-SAFE PORTFOLIO</text>
+  <text x="58" y="108" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">Restricted-Data Analytics Architecture</text>
+  <text x="58" y="136" fill="#D6EEEA" font-family="Arial, Helvetica, sans-serif" font-size="18">Generic workflow only — no data, identifiers, project details, or unpublished results released</text>
+
+  <g filter="url(#shadow)"><rect x="52" y="194" width="1096" height="265" rx="18" fill="#FFFFFF"/></g>
+  <text x="82" y="234" fill="#213E48" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700">Authorized analysis environment</text>
+  <text x="82" y="258" fill="#6B7E82" font-family="Arial, Helvetica, sans-serif" font-size="14">The analytic workflow is reproducible without exposing restricted inputs or study-specific outputs.</text>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <rect x="82" y="294" width="180" height="116" rx="16" fill="url(#private)"/>
+    <path d="M158 335v-11c0-13 10-23 23-23s23 10 23 23v11" fill="none" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round"/><rect x="145" y="334" width="72" height="51" rx="8" fill="#FFFFFF" opacity=".96"/><circle cx="181" cy="357" r="6" fill="#DB795F"/><rect x="178" y="362" width="6" height="12" rx="3" fill="#DB795F"/>
+    <text x="172" y="423" fill="#FFFFFF" font-size="16" font-weight="700" text-anchor="middle">Authorized data</text><text x="172" y="444" fill="#FFF1E9" font-size="12" text-anchor="middle">secure local environment</text>
+    <path d="M278 352H324" stroke="#8BA3A4" stroke-width="2.5"/><path d="M315 344l9 8-9 8" fill="none" stroke="#8BA3A4" stroke-width="2.5"/>
+    <rect x="340" y="294" width="180" height="116" rx="16" fill="#EAF2F2"/>
+    <circle cx="380" cy="337" r="18" fill="#A7C7C5"/><path d="M371 337l6 6 12-13" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="430" y="342" fill="#31535C" font-size="15" font-weight="700">Cohort &amp; quality audit</text><text x="430" y="364" fill="#667C80" font-size="12">eligibility • duplicates • checks</text>
+    <path d="M536 352H582" stroke="#8BA3A4" stroke-width="2.5"/><path d="M573 344l9 8-9 8" fill="none" stroke="#8BA3A4" stroke-width="2.5"/>
+    <rect x="598" y="294" width="180" height="116" rx="16" fill="#EAF2F2"/>
+    <path d="M638 326h24v32h-24zM643 321h24v32h-24z" fill="#A7C7C5"/><path d="M650 337h10M650 345h10" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+    <text x="688" y="342" fill="#31535C" font-size="15" font-weight="700">Outcome construction</text><text x="688" y="364" fill="#667C80" font-size="12">generic analytic variables</text>
+    <path d="M794 352H840" stroke="#8BA3A4" stroke-width="2.5"/><path d="M831 344l9 8-9 8" fill="none" stroke="#8BA3A4" stroke-width="2.5"/>
+    <rect x="856" y="294" width="210" height="116" rx="16" fill="#EAF2F2"/>
+    <circle cx="897" cy="349" r="21" fill="#A7C7C5"/><path d="M887 348h20M897 338v20" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+    <text x="932" y="342" fill="#31535C" font-size="15" font-weight="700">Adjusted model &amp; checks</text><text x="932" y="364" fill="#667C80" font-size="12">uncertainty • diagnostics • interpretation</text>
+  </g>
+  <g filter="url(#shadow)"><rect x="52" y="491" width="526" height="172" rx="18" fill="#FFF4EF"/><rect x="622" y="491" width="526" height="172" rx="18" fill="#EDFAF6"/></g>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <rect x="82" y="521" width="112" height="25" rx="12" fill="#F4C8BA"/><text x="97" y="539" fill="#9A4734" font-size="12" font-weight="700" letter-spacing=".9">PRIVATE</text>
+    <text x="82" y="579" fill="#8D4534" font-size="21" font-weight="700">Protected within the authorized environment</text>
+    <text x="82" y="607" fill="#8A6157" font-size="14">Raw records • direct identifiers • source fields • counts • results</text>
+    <text x="82" y="631" fill="#8A6157" font-size="14">Never committed, linked, or reproduced publicly</text>
+    <rect x="652" y="521" width="106" height="25" rx="12" fill="#BEE8D9"/><text x="669" y="539" fill="#16715F" font-size="12" font-weight="700" letter-spacing=".9">PUBLIC</text>
+    <text x="652" y="579" fill="#176859" font-size="21" font-weight="700">Shared as portfolio-safe evidence</text>
+    <text x="652" y="607" fill="#467A70" font-size="14">Generic R workflow • methods • architecture • privacy boundary</text>
+    <text x="652" y="631" fill="#467A70" font-size="14">Demonstrates analytical rigor without revealing the underlying study</text>
+  </g>
+</svg>
