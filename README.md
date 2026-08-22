@@ -1,4 +1,4 @@
-# Confidential Clinical Screening Analytics
+# Privacy-Safe Clinical Screening Analytics
 
 **R · Data quality · Logistic regression · Privacy-aware analytics**
 
@@ -93,7 +93,7 @@ The public project contains generalized code only. Restricted inputs and generat
 ## Project Structure
 
 ```text
-confidential-clinical-screening-analysis/
+privacy-safe-clinical-screening-analysis/
 ├── analysis/       # Public-safe R Markdown walkthrough
 ├── R/              # Cohort, outcome, model, and visualization scripts
 ├── data/           # Access statement only; no data
