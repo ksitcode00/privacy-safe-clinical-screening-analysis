@@ -1,0 +1,38 @@
+---
+title: "Confidential Clinical Screening Analytics"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE)
+source("R/00_packages.R")
+```
+
+## Public-safe analytical walkthrough
+
+This document shows a generic restricted-data workflow. It does not access, display, or describe the original project.
+
+### 1. Audit the analysis cohort
+
+```{r cohort, eval=FALSE}
+source("R/01_cohort_audit.R")
+analytic_cohort |>
+  dplyr::count(screening_setting)
+```
+
+### 2. Construct outcomes and uncertainty intervals
+
+```{r outcomes, eval=FALSE}
+source("R/02_screening_outcomes.R")
+exact_prevalence(screening_outcomes, "exam_positive")
+```
+
+### 3. Estimate adjusted associations
+
+```{r model, eval=FALSE}
+source("R/03_regression_models.R")
+odds_ratios |>
+  dplyr::filter(term != "(Intercept)")
+```
+
+Inputs and outputs remain in authorized private locations.

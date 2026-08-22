@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="330" viewBox="0 0 960 330" role="img" aria-labelledby="title desc">
+  <title id="title">Confidential clinical screening analysis workflow</title><desc id="desc">A four-step flow from restricted records through cohort audit, outcome construction, adjusted modeling, and privacy-aware reporting.</desc>
+  <rect width="960" height="330" fill="#ffffff"/>
+  <text x="56" y="64" font-family="Arial, sans-serif" font-size="29" font-weight="700" fill="#143d59">From restricted records to decision-ready evidence</text>
+  <g font-family="Arial, sans-serif" text-anchor="middle">
+    <rect x="56" y="128" width="175" height="120" rx="14" fill="#e6f1f5"/><text x="143" y="168" font-size="17" font-weight="700" fill="#143d59">1. Cohort audit</text><text x="143" y="198" font-size="14" fill="#516575">eligibility · duplicates</text><text x="143" y="220" font-size="14" fill="#516575">integrity checks</text>
+    <path d="M245 188H290" stroke="#7b96a8" stroke-width="4"/><path d="M282 180l14 8-14 8" fill="none" stroke="#7b96a8" stroke-width="4"/>
+    <rect x="306" y="128" width="175" height="120" rx="14" fill="#edf5e9"/><text x="393" y="168" font-size="17" font-weight="700" fill="#26734d">2. Construct</text><text x="393" y="198" font-size="14" fill="#516575">screening vs.</text><text x="393" y="220" font-size="14" fill="#516575">reported-history fields</text>
+    <path d="M495 188H540" stroke="#7b96a8" stroke-width="4"/><path d="M532 180l14 8-14 8" fill="none" stroke="#7b96a8" stroke-width="4"/>
+    <rect x="556" y="128" width="175" height="120" rx="14" fill="#fbf0e8"/><text x="643" y="168" font-size="17" font-weight="700" fill="#a85528">3. Model</text><text x="643" y="198" font-size="14" fill="#516575">exact intervals ·</text><text x="643" y="220" font-size="14" fill="#516575">logistic regression</text>
+    <path d="M745 188H790" stroke="#7b96a8" stroke-width="4"/><path d="M782 180l14 8-14 8" fill="none" stroke="#7b96a8" stroke-width="4"/>
+    <rect x="806" y="128" width="110" height="120" rx="14" fill="#f0ecf7"/><text x="861" y="168" font-size="17" font-weight="700" fill="#634a91">4. Report</text><text x="861" y="198" font-size="14" fill="#516575">methods ·</text><text x="861" y="220" font-size="14" fill="#516575">privacy notes</text>
+  </g>
+  <text x="56" y="288" font-family="Arial, sans-serif" font-size="14" fill="#667985">No data, counts, study name, location, organization, or results are published.</text>
+</svg>

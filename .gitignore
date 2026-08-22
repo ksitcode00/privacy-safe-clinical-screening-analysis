@@ -1,0 +1,5 @@
+# Protected study inputs and generated outputs
+data/private/
+results/private/
+.Rhistory
+.RData
