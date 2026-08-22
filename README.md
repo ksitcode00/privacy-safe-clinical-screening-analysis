@@ -7,7 +7,7 @@
 > A fully anonymized portfolio project demonstrating an end-to-end analytical workflow for restricted clinical screening data. The public repository contains reusable R code, documentation, and workflow visuals only. It intentionally contains no organization, location, study name, sample size, health-condition results, data files, or unpublished findings.
 
 <p align="center">
-  <img src="figures/restricted-data-analytics-architecture.svg" alt="Restricted-data analytics architecture" width="900">
+  <img src="figures/restricted-data-analytics-architecture.png" alt="Restricted-data analytics architecture" width="900">
 </p>
 
 ## Executive Summary
