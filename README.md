@@ -7,7 +7,7 @@
 > A fully anonymized portfolio project demonstrating an end-to-end analytical workflow for restricted clinical screening data. The public repository contains reusable R code, documentation, and workflow visuals only. It intentionally contains no organization, location, study name, sample size, health-condition results, data files, or unpublished findings.
 
 <p align="center">
-  <img src="figures/restricted-data-analytics-architecture.png" alt="Restricted-data analytics architecture" width="900">
+  <img src="figures/clinical-screening-cover.svg" alt="Clinical screening analytics: reconcile examination findings and reported history, audit denominators, and model associations" width="900">
 </p>
 
 ## Executive Summary
@@ -45,6 +45,10 @@ stopifnot(!anyDuplicated(analytic_cohort$record_id))
 
 ### 2. Construct screening outcomes
 
+![Examination and reported-history comparison, with previously unreported defined as exam-positive and no history reported](figures/screening-outcome-definition.svg)
+
+The comparison defines the outcome before modeling. Examination-positive proportions use records with known examination outcomes; previously-unreported proportions use exam-positive records with known reported-history status. Missing fields require separate auditing. This constructed outcome does not establish diagnostic error.
+
 ```r
 screening_outcomes <- analytic_cohort |>
   mutate(
@@ -67,6 +71,10 @@ odds_ratios <- broom::tidy(fit, conf.int = TRUE, exponentiate = TRUE)
 ```
 
 ## Technical Approach
+
+![Audited records split into descriptive analysis and complete-case adjusted modeling, with separate eligibility and interpretation checks](figures/screening-analysis-workflow.svg)
+
+Descriptive summaries and adjusted models can use different eligible samples. Making that distinction explicit helps prevent denominator mismatches and makes uncertainty easier to interpret. These diagrams illustrate the generalized public workflow; they contain no study results. See the [visual guide](docs/visual-guide.md) for text descriptions.
 
 - **Data quality:** cohort construction, duplicate checks, and denominator reconciliation.
 - **Outcome construction:** generic comparison of screening/examination and reported-history fields.
@@ -98,7 +106,7 @@ privacy-safe-clinical-screening-analysis/
 ├── R/              # Cohort, outcome, model, and visualization scripts
 ├── data/           # Access statement only; no data
 ├── docs/           # Generic method, privacy, and reproduction notes
-└── figures/        # Workflow visual only
+└── figures/        # Cover and explanatory method diagrams
 ```
 
 ## Tools
